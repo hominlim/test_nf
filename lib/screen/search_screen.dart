@@ -130,7 +130,7 @@ class _SearchScreenState extends State<SearchScreen> {
                 ),
                 focusNode.hasFocus
                     ? Expanded(
-                        child: FlatButton(
+                        child: TextButton(
                           onPressed: () {
                             setState(() {
                               _filter.clear();

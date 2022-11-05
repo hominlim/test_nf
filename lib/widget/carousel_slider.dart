@@ -94,8 +94,8 @@ class _CarouselImageState extends State<CarouselImage> {
                   ),
                   Container(
                     padding: EdgeInsets.only(right: 10),
-                    child: FlatButton(
-                      color: Colors.white,
+                    child: TextButton(
+                      // color: Colors.white,
                       onPressed: () {},
                       child: Row(
                         children: [

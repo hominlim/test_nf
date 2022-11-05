@@ -68,7 +68,7 @@ class _DetailScreenState extends State<DetailScreen> {
                             ),
                             Container(
                               padding: EdgeInsets.all(3),
-                              child: FlatButton(
+                              child: TextButton(
                                 child: Row(
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
@@ -77,7 +77,7 @@ class _DetailScreenState extends State<DetailScreen> {
                                   ],
                                 ),
                                 onPressed: () {},
-                                color: Colors.red,
+                                // color: Colors.red,
                               ),
                             ),
                             Container(
